@@ -3,7 +3,6 @@
 # Problem Set 1
 # 04/02/2024
 
-import numpy as np
 from datetime import datetime, date, time, timedelta
 from typing import Union
 
@@ -76,5 +75,4 @@ def prob_k_heads(n: int, k: int) -> float:
 
     return probability
 
-#test edit
 
