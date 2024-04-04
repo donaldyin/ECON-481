@@ -3,7 +3,6 @@
 # Problem Set 1
 # 04/02/2024
 
-import numpy as np
 from datetime import datetime, date, time, timedelta
 from typing import Union
 
@@ -75,4 +74,3 @@ def prob_k_heads(n: int, k: int) -> float:
     probability = (factorial(n)/((factorial(k))*(factorial(n-k))))*(0.5**k)*(0.5**(n-k))
 
     return probability
-
